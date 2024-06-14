@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(background.gif);
+    background-size: cover ;
+}
+#wrapper {
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#button {
+    display: flex;
+    margin: -7px 0;
+}
+
+.box img {
+    display: block;
+    width: 100%;
+}
+
+.box :hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+#bagan-tiga {
+    background: url(background-kare_02.jpg);
+}
+#kare {
+    display: flex;
+}
+
+#gambar-kare {
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+#judul-kare {
+    padding-top: 60px;
+    padding-left: 200px;
+}
+
+#keterangan-kare {
+    color: #ffffff;
+    margin-top: -240px;
+    padding-left: 450px;
+    padding-bottom: 80px;
+}
+
+#main1 {
+    font-size: 20px;
+}
+
+#sub1 {
+    font-size: 18px;
+}
+
+#bagan-empat {
+    background: url(background-ramen_02.jpg);
+}
+
+#ramen {
+    display: flex;
+}
+
+#gambar-ramen {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+}
+
+#judul-ramen {
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+#keterangan-ramen {
+    color: #ffffff;
+    margin-top: -320px;
+    padding-left: 70px;
+    padding-bottom: 100px;
+}
+
+#main2 {
+    font-size: 20px;
+}
+
+#sub2 {
+    font-size: 18px;
+}
+
+#bagan-lima {
+    background: url(background-hitsumabushi_02.jpg);
+}
+
+#hitsumabushi {
+    display: flex;
+}
+
+#gambar-hitsumabushi {
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+#judul-hitsumabushi {
+    padding-top: 60px;
+    padding-left: 245px;
+}
+
+#keterangan-hitsumabushi {
+    color: #ffffff;
+    margin-top: -220px;
+    padding-left: 450px;
+    padding-bottom: 80px;
+}
+
+#main3 {
+    font-size: 20px;
+}
+
+#sub3 {
+    font-size: 18px;
+}
+
+#bagan-akhir {
+    background: url(background-akhir_02.jpg);
+    text-align: center;
+}
+
+#kupon {
+    padding-top: 50px;
+}
+
+#gambar-akses {
+    padding-top: 150px;
+}
+#keterangan-akses {
+    color: #84664d;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 140px;
+}
+
+#kupon img {
+    display: block;
+    width: 100%;
+}
+
+#kupon :hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+p {
+    font-family: "zen maru gothic";
+}
+
